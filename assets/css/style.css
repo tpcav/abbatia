@@ -46,6 +46,7 @@ h1 {
   grid-template-columns: repeat(300px, minmax(300px, 1fr));
   grid-gap: 10px;
   align-items: stretch;	
+  scroll-behavior: smooth;
 }
 
 .photoAlbum img {
@@ -66,4 +67,18 @@ h1 {
   letter-spacing: -1px;
   background-color: rgba(240, 248, 255, 0);
   border: solid 2px white;
+}
+
+.textContent {
+  position: relative;
+  margin-top: 4rem;
+  color: #a4a4a4;
+  font-weight: 500;
+  letter-spacing: 0px;
+  width: 40vw;
+}
+
+.textContainer {
+  position: absolute;
+  scroll-behavior: smooth;
 }
